@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: bisque;
+    background: linear-gradient(to right, red , yellow);
+    text-align: center;
+    margin: 2% 0;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    color: beige;
+    font-size: 150%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.heading{
+        margin: 10% auto;
+}
+
+h1{
+    font-weight: 100;
+    font-size: 500%;
+}
+
+h2{
+    font-weight: 300;
+}
+
+h3{
+    font-family: 'Roboto Mono', monospace;
+}
+
